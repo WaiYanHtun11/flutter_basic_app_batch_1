@@ -1,0 +1,1 @@
+rootProject.name = "flutter_basic_app"
