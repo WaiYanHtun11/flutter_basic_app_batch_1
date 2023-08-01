@@ -1,5 +1,5 @@
 name: flutter_basic_app
-description: A new Flutter project.
+description: Flutter learning app.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   widget_with_codeview: ^3.1.0
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -61,7 +62,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - lib/widgets/
+    - lib/screen/
+    - lib/navigation/
+    - lib/lists/
+    - lib/layouts/
+    - lib/async/
+    - lib/appbar/
+    - lib/animation/
     - lib/
+    - assets/image/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
