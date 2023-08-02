@@ -104,6 +104,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "fluttertoast",
+      "rootUri": "file:///Users/waiyanhtun/.pub-cache/hosted/pub.dev/fluttertoast-8.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///Users/waiyanhtun/.pub-cache/hosted/pub.dev/google_fonts-5.1.0",
       "packageUri": "lib/",
@@ -344,7 +350,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-08-01T10:07:28.422855Z",
+  "generated": "2023-08-02T10:07:32.246730Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }

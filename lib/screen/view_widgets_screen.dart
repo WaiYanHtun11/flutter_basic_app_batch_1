@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_app/preview.dart';
 import 'package:flutter_basic_app/widgets/icon_demo.dart';
+import 'package:flutter_basic_app/widgets/text_field_demo.dart';
 import '../widgets/text_demo.dart';
 class ViewWidgetsScreen extends StatelessWidget {
   const ViewWidgetsScreen({super.key});
-
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,9 @@ class ViewWidgetsScreen extends StatelessWidget {
 
     List<Widget> screens = [
       getPreview(const IconDemo(), 'lib/widgets/icon_demo.dart','Icon Demo'),
-      getPreview(const TextDemo(), 'lib/main.dart','Text Demo')
+      getPreview(const TextDemo(), 'lib/widgets/text_demo.dart','Text Demo'),
+      getPreview(const TextFieldDemo(), 'lib/widgets/text_field_demo.dart', 'TextField Demo')
+
     ];
 
     return Scaffold(
@@ -46,7 +48,7 @@ class ViewWidgetsScreen extends StatelessWidget {
         children: [
           buildMenuItem(1,'Icon', screens[0]),
           buildMenuItem(2, 'Text',screens[1]),
-          buildMenuItem(3,'TextField', const Placeholder()),
+          buildMenuItem(3, 'TextField', screens[2]),
           buildMenuItem(4, 'TextFormField', const Placeholder()),
           buildMenuItem(5, 'Image', const Placeholder()),
           buildMenuItem(6, 'Card,Inkwell', const Placeholder()),
