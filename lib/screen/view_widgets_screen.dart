@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_app/preview.dart';
+import 'package:flutter_basic_app/widgets/buttons_demo.dart';
+import 'package:flutter_basic_app/widgets/dd_button_demo.dart';
 import 'package:flutter_basic_app/widgets/gradient_demo.dart';
 import 'package:flutter_basic_app/widgets/icon_demo.dart';
+import 'package:flutter_basic_app/widgets/other_statful_widgets.dart';
 import 'package:flutter_basic_app/widgets/text_field_demo.dart';
 import 'package:flutter_basic_app/widgets/text_form_field_demo.dart';
 import '../widgets/card_demo.dart';
@@ -46,9 +49,10 @@ class ViewWidgetsScreen extends StatelessWidget {
       getPreview(const ImageDemo(), '$folder/image_demo.dart', 'Image Demo'),
       getPreview(const CardDemo(), '$folder/card_demo.dart', 'Card Demo'),
       getPreview(const GradientDemo(), '$folder/gradient_demo.dart', 'Gradient Demo'),
-
+      getPreview(const ButtonsDemo(), '$folder/buttons_demo.dart', 'Buttons Demo'),
+      getPreview(const DropdownButtonDemo(), '$folder/dd_button_demo.dart', 'Dropdown Menu Buttons'),
+      getPreview(const OtherStatefulWidgets(), '$folder/other_stateful_widgets.dart', 'Other Stateful Widgets')
     ];
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Widgets'),
@@ -62,9 +66,9 @@ class ViewWidgetsScreen extends StatelessWidget {
           buildMenuItem(5, 'Image', screens[4]),
           buildMenuItem(6, 'Card,Inkwell', screens[5]),
           buildMenuItem(7, 'Gradient', screens[6]),
-          buildMenuItem(8, 'Buttons', const Placeholder()),
-          buildMenuItem(9, 'Dropdown & Menu Button', const Placeholder()),
-          buildMenuItem(10, 'Other stateful widgets', const Placeholder())
+          buildMenuItem(8, 'Buttons', screens[7]),
+          buildMenuItem(9, 'Dropdown & Menu Button', screens[8]),
+          buildMenuItem(10, 'Other stateful widgets', screens[9])
         ],
       ),
     );
