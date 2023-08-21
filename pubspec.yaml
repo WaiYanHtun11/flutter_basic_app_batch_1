@@ -39,6 +39,7 @@ dependencies:
   fluttertoast: ^8.2.2
   transparent_image: ^2.0.1
   flutter_gradient_app_bar: ^0.3.1
+  flutter_slidable: ^3.0.0
 
 
 dev_dependencies:
