@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  backdrop:
+    dependency: "direct main"
+    description:
+      name: backdrop
+      sha256: "8d1de2db4aca3821bad670c092e3a050bf15aa1dd05ded4d14fdf0a0ae5da9dc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.9.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -41,6 +49,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.1"
+  convex_bottom_app_bar:
+    dependency: "direct main"
+    description:
+      name: convex_bottom_app_bar
+      sha256: d27c6201e3c766b37855133db0116c70f303d8ede3d13c9a38fa2b2b3ad0e9f7
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.2"
   crypto:
     dependency: transitive
     description:

@@ -7,6 +7,7 @@ class DataTableDemo extends StatefulWidget {
 }
 
 class _DataTableDemoState extends State<DataTableDemo> {
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

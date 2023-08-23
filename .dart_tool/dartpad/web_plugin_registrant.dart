@@ -6,12 +6,14 @@
 // @dart = 2.13
 // ignore_for_file: type=lint
 
+import 'package:convex_bottom_app_bar/convex_bottom_app_bar_web.dart';
 import 'package:fluttertoast/fluttertoast_web.dart';
 import 'package:url_launcher_web/url_launcher_web.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 void registerPlugins([final Registrar? pluginRegistrar]) {
   final Registrar registrar = pluginRegistrar ?? webPluginRegistrar;
+  ConvexBottomAppBarWeb.registerWith(registrar);
   FluttertoastWebPlugin.registerWith(registrar);
   UrlLauncherPlugin.registerWith(registrar);
   registrar.registerMessageHandler();

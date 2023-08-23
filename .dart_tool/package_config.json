@@ -8,6 +8,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "backdrop",
+      "rootUri": "file:///Users/waiyanhtun/.pub-cache/hosted/pub.dev/backdrop-0.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/waiyanhtun/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -30,6 +36,12 @@
       "rootUri": "file:///Users/waiyanhtun/.pub-cache/hosted/pub.dev/collection-1.17.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "convex_bottom_app_bar",
+      "rootUri": "file:///Users/waiyanhtun/.pub-cache/hosted/pub.dev/convex_bottom_app_bar-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "crypto",
@@ -368,7 +380,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-08-23T10:22:43.951674Z",
+  "generated": "2023-08-25T10:50:31.808432Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }
