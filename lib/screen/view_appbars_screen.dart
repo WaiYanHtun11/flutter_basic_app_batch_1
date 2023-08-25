@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_app/appbar/appbar_demo.dart';
 import 'package:flutter_basic_app/appbar/backdrop_demo.dart';
-import 'package:flutter_basic_app/appbar/convex_appbar_demo.dart';
 import 'package:flutter_basic_app/appbar/fab_demo.dart';
 import '../appbar/search_bar_demo.dart';
 import '../appbar/sliver_appbar_demo.dart';
@@ -42,7 +41,6 @@ class ViewAppbarsScreen extends StatelessWidget {
       getPreview(const SliverAppBarDemo(),'$folder/sliver_appbar_demo.dart','Sliver Appbar Demo'),
       getPreview(const SearchBarDemo(), '$folder/search_bar_demo.dart', 'Search Bar Demo'),
       getPreview(const BackDropDemo(),'$folder/backdrop_demo.dart', 'Backdrop Demo'),
-      getPreview(const ConvexAppBarDemo(), '$folder/convex_appbar_demo.dart', 'Convex Appbar Demo')
     ];
 
     return Scaffold(
@@ -56,7 +54,6 @@ class ViewAppbarsScreen extends StatelessWidget {
           buildMenuItem(3,'Sliver AppBar',screens[2]),
           buildMenuItem(4,'Search Bar',screens[3]),
           buildMenuItem(5,'Backdrop',screens[4]),
-          buildMenuItem(6,'Convex AppBar',screens[5]),
         ],
       ),
     );

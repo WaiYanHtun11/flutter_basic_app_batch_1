@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_app/home_screen.dart';
+import 'package:flutter_basic_app/navigation/route_demo.dart';
 void main(){
   runApp(const MyApp());
 }
@@ -16,6 +17,11 @@ class MyApp extends StatelessWidget {
         )
       ),
       home: const HomeScreen(),
+      initialRoute: '/home',
+      routes: {
+        '/home' : (context) => const HomeScreen(),
+        '/page1' : (context) => const RouteDemo()
+      },
       debugShowCheckedModeBanner: false,
     );
   }
