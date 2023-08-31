@@ -17,11 +17,6 @@ class MyApp extends StatelessWidget {
         )
       ),
       home: const HomeScreen(),
-      initialRoute: '/home',
-      routes: {
-        '/home' : (context) => const HomeScreen(),
-        '/page1' : (context) => const RouteDemo()
-      },
       debugShowCheckedModeBanner: false,
     );
   }
